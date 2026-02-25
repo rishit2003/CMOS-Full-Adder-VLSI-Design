@@ -1,0 +1,25 @@
+.DS_Store
+.cadence/
+svdb/
+ihnl/
+logs_*/
+
+# Calibre / verification outputs
+*_calibre.*
+calview.log
+*.drc.results
+*.drc.summary
+*.lvs.report
+*.lvs.report.ext
+*.erc.results
+*.erc.summary
+*.pex.netlist
+*.calibre.db
+
+# General generated artifacts
+*.log
+*.summary
+*.results
+*.db
+*.density
+*.rep

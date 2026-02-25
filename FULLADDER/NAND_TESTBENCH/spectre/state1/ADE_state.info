@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("FULLADDER" "NAND_TESTBENCH" "schematic" "spectre")
+descriptionText = "None"
