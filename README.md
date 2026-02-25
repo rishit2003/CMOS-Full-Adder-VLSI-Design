@@ -57,3 +57,28 @@ For full simulations, PEX netlists, DRC/LVS reports, plots, and analysis, see `d
 **Notes**
 - Foundry PDK and proprietary rule decks are not included.
 - Netlists and verification outputs are generated artifacts and are typically excluded from version control.
+
+**Condensed Simulation Snapshot (From `docs/Report.pdf`)**
+
+Full-adder transient verification was run in Spectre with `tran 0 100n conservative`, `VDD = 1.8 V`, and staggered pulse sources on `VA`, `VB`, and `CIN` to sweep input combinations over time.
+
+| Case | Delay to Carry (ps) | Delay to Sum (ps) | Avg. Power (uW) |
+| --- | --- | --- | --- |
+| Schematic (No Load) | 42.369 | 142.316 | 27.937 |
+| Schematic (With Load) | 53.434 | 161.592 | 31.266 |
+| Layout (No Load) | 144.146 | 298.897 | 53.852 |
+| Layout (With Load) | 179.457 | 353.543 | 62.623 |
+
+Representative functional checks (from transient waveforms):
+
+| A | B | Cin | Sum | Cout |
+| --- | --- | --- | --- | --- |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
+Waveform/measurement references from the report images:
+- Schematic transient waveform: `docs/images/extracted/img_086_1916x828.png`
+- Schematic measured values: `docs/images/extracted/img_087_1602x828.png`, `docs/images/extracted/img_095_712x514.png`
+- Layout measured values: `docs/images/extracted/img_097_712x514.png`, `docs/images/extracted/img_098_601x514.png`
