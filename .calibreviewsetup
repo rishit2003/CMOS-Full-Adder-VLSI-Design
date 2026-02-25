@@ -1,0 +1,20 @@
+//  Calibre View Setup Information
+//  ------------------------------
+//	  Output Library: FULLADDER
+//	  Schematic Library: FULLADDER
+//	  Cellmap File: /CMC/kits/tsmc180_BCD.1.6a.2fF.40kA/Calibre/rcx/calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre_view
+//	  Calibre View Type: maskLayout
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Preserve Device Case: off
+//	  Execute Callbacks: off
+//	  Reset Properties: ("m=1")
+//	  Magnify Devices by: 100.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Device Placement: Layout Location
+//	  Parasitic Placement: Arrayed
+//	  Show Parasitic Polygons: off
+//	  Open Calibre CellView: Don't Open
+//	  Generate SPECTRE Netlist: on
+//	  Always Show Dialog: on

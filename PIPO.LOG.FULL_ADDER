@@ -1,0 +1,67 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 05/29/2018 20:04 (sjfhw311) $
+          : sub-version  IC6.1.7-64b.500.20 
+Started at: 21-Nov-2025  14:25:26
+User Name : r_mitt
+Host Name : mudslide.encs.concordia.ca
+Directory : /home/r/r_mitt/COEN451/Project/FULLADDER
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/r/r_mitt/COEN451/Project/FULLADDER/FULL_ADDER.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /CMC/kits/tsmc180_BCD.1.6a.2fF.40kA/tsmc18/tsmc18.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 FULLADDER
+strmFile                                /home/r/r_mitt/COEN451/Project/FULLADDER/FULL_ADDER.calibre.db
+topCell                                 FULL_ADDER
+view                                    layout
+runDir                                  /home/r/r_mitt/COEN451/Project/FULLADDER/
+logFile                                 PIPO.LOG.FULL_ADDER
+layerMap                                /CMC/kits/tsmc180_BCD.1.6a.2fF.40kA/tsmc18/tsmc18.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView tsmc18/M2_M1/layout as STRUCTURE M2_M1_CDNS_763753126410.
+INFO (XSTRM-223): 2. Translating cellView tsmc18/M1_POLY1/layout as STRUCTURE M1_POLY1_CDNS_763753126411.
+INFO (XSTRM-223): 3. Translating cellView tsmc18/M2_M1/layout as STRUCTURE M2_M1_CDNS_763753126412.
+INFO (XSTRM-223): 4. Translating cellView tsmc18/M1_POLY1/layout as STRUCTURE M1_POLY1_CDNS_763753126413.
+INFO (XSTRM-223): 5. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_763753126410.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 6. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_763753126411.
+INFO (XSTRM-223): 7. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_763753126412.
+INFO (XSTRM-223): 8. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_763753126413.
+INFO (XSTRM-223): 9. Translating cellView FULLADDER/NAND/layout as STRUCTURE NAND.
+INFO (XSTRM-223): 10. Translating cellView FULLADDER/FULL_ADDER/layout as STRUCTURE FULL_ADDER.
+
+Summary of Objects Translated:
+	Scalar Instances:                       13
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  5
+	Rectangles:                             116
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           30
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               114
+	Text:                                   28
+	TextDisplay:                            12
+	Cells:                                  10
+
+Elapsed Time: 0.7s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 136760KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
