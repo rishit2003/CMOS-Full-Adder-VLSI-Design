@@ -37,10 +37,10 @@ Shown below is **Figure 4: NAND Gate Layout**.
 Full adder views are shown next.
 
 Shown below is **Figure 7: Full Adder Schematic with Numbered Gates**.
-![Figure 7](docs/images/extracted/img_038_2048x730.png)
+![Figure 8](docs/images/extracted/img_042_2048x730.png)
 
 Shown below is **Figure 8: Full Adder Layout**.
-![Figure 8](docs/images/extracted/img_042_2048x730.png)
+
 
 **Toolchain**
 - Cadence Virtuoso for schematic and layout
