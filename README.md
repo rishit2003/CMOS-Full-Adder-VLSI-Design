@@ -2,6 +2,9 @@
 
 A 1-bit NAND-based full adder implemented in 180 nm CMOS, including schematic design, layout, DRC/LVS verification, parasitic extraction (Calibre PEX), and post-layout simulation. The full adder is built from 9 NAND gates (36 transistors total).
 
+> [!IMPORTANT]
+> Full simulation waveforms, detailed measurements, and analysis are in **[docs/Report.pdf](docs/Report.pdf)**.
+
 **Highlights**
 - Post-layout average dynamic power: 62.6 uW
 - Post-layout propagation delay to Sum (with output load): 353.5 ps
@@ -43,7 +46,7 @@ Shown below is **Figure 8: Full Adder Layout**.
 - 180 nm PDK and rule decks (not included)
 
 **For Full Details**
-For full simulations, PEX netlists, DRC/LVS reports, plots, and analysis, see `docs/Report.pdf`.
+For full simulations, PEX netlists, DRC/LVS reports, plots, and analysis, see **[docs/Report.pdf](docs/Report.pdf)**.
 
 **Repository Structure**
 - `FULLADDER/FULL_ADDER/`: full adder cell/library data
@@ -80,4 +83,4 @@ Representative functional checks (from transient waveforms):
 
 **Simulation Results**
 
-Simulation details are omitted here for brevity. Check `docs/Report.pdf` for more details (waveforms, delay/power measurements, and full analysis).
+Simulation details are omitted here for brevity. Check **[docs/Report.pdf](docs/Report.pdf)** for more details (waveforms, delay/power measurements, and full analysis).
