@@ -2,11 +2,6 @@
 
 A 1-bit NAND-based full adder implemented in 180 nm CMOS, including schematic design, layout, DRC/LVS verification, parasitic extraction (Calibre PEX), and post-layout simulation. The full adder is built from 9 NAND gates (36 transistors total).
 
-**Resume Summary**
-- Designed a 1-bit NAND-based full adder (9 NAND gates, 36 transistors) in 180 nm CMOS using schematic-to-layout flow.
-- Verified manufacturability with DRC/LVS and performed parasitic extraction (Calibre PEX) with post-layout simulations.
-- Measured post-layout performance: 353.5 ps Sum delay (with load), 62.6 uW dynamic power, 26,007.59 um^2 area.
-
 **Highlights**
 - Post-layout average dynamic power: 62.6 uW
 - Post-layout propagation delay to Sum (with output load): 353.5 ps
@@ -24,7 +19,6 @@ Values are reported in the project report table for schematic/layout and with/wi
 | Silicon Area (um^2) | - | - | 26007.59 | - |
 
 **Schematic And Layout**
-Below are the key schematic and layout views so reviewers can validate the core design without opening the report.
 
 NAND gate views are shown first.
 
@@ -37,10 +31,10 @@ Shown below is **Figure 4: NAND Gate Layout**.
 Full adder views are shown next.
 
 Shown below is **Figure 7: Full Adder Schematic with Numbered Gates**.
-![Figure 8](docs/images/extracted/img_042_2048x730.png)
+![Figure 7](docs/images/extracted/img_042_2048x730.png)
 
 Shown below is **Figure 8: Full Adder Layout**.
-
+![Figure 8](docs/images/extracted/img_043_2048x1228.png)
 
 **Toolchain**
 - Cadence Virtuoso for schematic and layout
