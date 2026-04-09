@@ -4,6 +4,10 @@ svdb/
 ihnl/
 logs_*/
 
+# Proprietary technology files (e.g. TSMC)
+display.drf
+*.drf
+
 # Calibre / verification outputs
 *_calibre.*
 calview.log
